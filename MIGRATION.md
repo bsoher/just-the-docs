@@ -29,7 +29,7 @@ This document contains instructions on how to migrate and upgrade Just the Docs 
 {::options toc_levels="2..4" /}
 
 {: .warning }
-> If your configuration states `remote_theme: just-the-docs/just-the-docs`, your
+> If your configuration states `remote_theme: bsoher/just-the-docs`, your
 > website is built using the current `main` branch of the theme, which may include
 > changes made after the latest release; see the [CHANGELOG].
 >
@@ -180,7 +180,7 @@ For those users, we suggest moving those variables and functions to each relevan
 
 #### Just the Docs
 
-The theme repo is now at <https://github.com/just-the-docs/just-the-docs>.
+The theme repo is now at <https://github.com/bsoher/just-the-docs>.
 The name of its default branch is now `main`.
 
 The theme docs website is now published at <https://just-the-docs.github.io/just-the-docs>. We've also retroactively published the theme docs website for version `v0.3.3` at <https://v0-3-3-docs.just-the-docs.com/>.
@@ -195,8 +195,8 @@ The [README] page on the theme repo repeats much of the information from the [ho
 formatted for browsing on GitHub.
 It also explains how to install the theme as a Ruby Gem, without creating a new site.
 
-[README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
-[home page]: https://just-the-docs.com
+[README]: https://github.com/bsoher/blob/main/README.md
+[home page]: https://just-the-docs.comjust-the-docs/
 
 #### Deploy previews
 
@@ -205,7 +205,7 @@ You can find links to the preview near the bottom of the Conversation tab of the
 
 #### Just the Docs Template
 
-The template at <https://github.com/just-the-docs/just-the-docs-template>
+The template at <https://github.com/bsoher/just-the-docs-template>
 creates a repo with the minimal source files for a Just the Docs website.
 After configuring the relevant parameters, you can build and serve the website
 both locally and on GitHub Pages – using either Jekyll 3 or Jekyll 4!
@@ -215,7 +215,7 @@ both locally and on GitHub Pages – using either Jekyll 3 or Jekyll 4!
 The tests website at <https://just-the-docs.github.io/just-the-docs-tests>
 consists mainly of regression tests for bug fixes and new features.
 
-The test source files at <https://github.com/just-the-docs/just-the-docs-tests>
+The test source files at <https://github.com/bsoher/just-the-docs-tests>
 illustrate the use of many Markdown and Jekyll features,
 including some that are not included in the theme docs.
 

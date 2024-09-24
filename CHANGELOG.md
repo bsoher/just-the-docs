@@ -36,7 +36,7 @@ Users who have not pinned the theme version will be **automatically upgraded to 
 To use this release explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.10.0
+remote_theme: bsoher/just-the-docs@v0.10.0
 ```
 
 To use this version explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
@@ -57,10 +57,10 @@ To use and pin a previous version of the theme, replace the `0.10.0` with the de
 - Added: sitemap (via `jekyll-sitemap` plugin) by [@mattxwang] in [#1530]
 - Fixed: (non-systemic) accessibility issues flagged by aXe by [@mattxwang] in [#1531]
 
-[#1431]: https://github.com/just-the-docs/just-the-docs/pull/1431
-[#1440]: https://github.com/just-the-docs/just-the-docs/pull/1440
-[#1530]: https://github.com/just-the-docs/just-the-docs/pull/1530
-[#1530]: https://github.com/just-the-docs/just-the-docs/pull/1531
+[#1431]: https://github.com/bsoher/just-the-docs/pull/1431
+[#1440]: https://github.com/bsoher/just-the-docs/pull/1440
+[#1530]: https://github.com/bsoher/just-the-docs/pull/1530
+[#1530]: https://github.com/bsoher/just-the-docs/pull/1531
 
 ## Release v0.9.0
 
@@ -75,7 +75,7 @@ Users who have not pinned the theme version will be **automatically upgraded to 
 To use this release explicitly as a remote theme:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.9.0
+remote_theme: bsoher/just-the-docs@v0.9.0
 ```
 
 To use this version explicitly as a gem-based theme, pin the version in your `Gemfile` and re-run `bundle install` or `bundle update just-the-docs`:
